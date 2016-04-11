@@ -3,7 +3,7 @@ package Q1_01_Is_Unique;
 
 // adding a comment
 public class QuestionA {
-	public static boolean _isUniqueChars(String str) {
+	public static boolean _isUniqueChars(String str, String str1) {
 		if (str.length() > 128) {
 			return false;
 		}
